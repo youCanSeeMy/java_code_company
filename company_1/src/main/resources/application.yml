@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://140.143.75.196:3306/zy
+    username: root
+    password: 123456
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+  type-aliases-package: com.example.code.company.entity
+  global-config:
+    db-config:
+      logic-delete-value: Y
+      logic-not-delete-value: N
+logging:
+  file: company_1\log.log
+  level:
+    com.example.code: debug

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.code.company.mapper.ShareSysCompanyInfoMapper">
+
+    <select id="select" resultType="com.example.code.company.entity.ShareSysCompanyInfo">
+        select * from share_sys_company_info
+        where COMPANY_ID = '17b1d38865f248cba9ff484da7c869f9'
+    </select>
+</mapper>
+
