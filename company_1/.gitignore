@@ -27,3 +27,8 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+### logs ###
+/company_1/log.log
+/.gitignore
+/log.log
